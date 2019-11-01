@@ -48,12 +48,14 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+*{
+	box-sizing: border-box;
+	max-width: 880px;
 }
 
 html, body {
-    height: 100%;
+				height: 100%;
+				margin: 0 auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -62,5 +64,170 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Navigation bar */
+nav{
+	display:flex;
+	justify-content: space-between;
+	padding-top: 1%;
+	/* border: 2px solid black */
+}
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav a {
+	display: flex;
+	align-items: center;
+	color: gray;
+	text-decoration: none;
+}
+/* Header Slogan and Button */
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	text-align: center;
+}
+
+.image{
+	margin-left: 5%;
+}
+
+#Slogan {
+	font-size: 85px;
+}
+
+.button {
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 2px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+hr {
+	border: 0.5px solid black;
+	/* margin: 2%; */
+}
+
+/* top content */
+
+.top-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 3.2%;
+}
+
+.top1 {
+	width: 45%;
+	font-size: 16px;
+	margin-right: 3%;
+}
+
+.top2 {
+	width: 45%;
+	font-size: 16px;
+	margin-right: 3%;
+}
+
+
+.middle-img {
+	margin-left: 3.2%;
+	width: 60vw;
+	
+}
+/* bottom content */
+.bottom-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom {
+	width: 30%;
+	margin-top: 3.2%;
+	margin-left: 3.2%;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	line-height: 20px;
+}
+
+.contact{
+	margin: 3.2%;
+	width: 210px;
+	line-height: 25px;
+}
+
+/* Services Page CSS */
+
+.header-container{
+	display:flex;
+	flex-direction: column;
+	padding-top: 1%;
+}
+
+.intro{
+	padding-top: 3%;
+	font-size: 20px;
+}
+
+.intro p{
+	font-size: 15px;
+	padding-bottom: 1%;
+}
+
+.content-boxes{
+	display: flex;
+}
+
+.content-top{
+	border: 1px solid black;
+	padding: 2%;
+	margin: 5% auto;
+	background: rgb(245, 241, 241);
+	font-size: 17px;
+	width: 45%;
+}
+
+button{
+	border: 1px solid black;
+	margin-top: 10px;
+	height: 20px;	
+	border-radius: 5%;
+	width: 100px;
+	
+}
+
+.content-middle{
+	border: 1px solid black;
+	padding: 2%;
+	margin: 5% auto;
+	background: rgb(245, 241, 241);
+	font-size: 17px;
+	width: 45%;
+}
+
+.content-bottom{
+	border: 1px solid black;
+	padding: 2%;
+	margin: 5% auto;
+	background: rgb(245, 241, 241);
+	font-size: 17px;
+	width: 45%;
+}
+
+.final{
+	display: flex;
+}
+
+.block{
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 20px;
+}
+
+footer{
+	text-align: center;
+}
+
